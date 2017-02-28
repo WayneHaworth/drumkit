@@ -1,0 +1,50 @@
+body {
+	background: url("/images/bg.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+
+	font: 22px 'Futura', Helvetica, Arial;
+	color: #fff;
+
+	box-sizing: border-box;
+
+}
+
+h1 { color: rgba(255,255,255,1); margin:0; padding:0; font-size: 1em; position:absolute;bottom:0; font-weight:100; text-transform: uppercase;}
+h1 span { font-size: 0.4em;}
+
+.keys {
+	position: absolute;
+	top:40%;left:0;bottom:0;right:0;
+	margin:0;
+	text-align:center;
+	height:800px;
+}
+
+.key {
+	display: inline-block;
+	width: 40px;
+	background: rgba(0,0,0,0.6);
+	text-align: center;
+	padding: 8px;
+	margin:0 10px;
+	font-size: 26px;
+
+	span {
+		display:block;
+		font-size: 9px;
+		font-weight: lighter;
+		color:#f9e441;
+		text-align:center;
+		text-transform: uppercase;
+		padding-top:5px;
+	}
+}
+
+.bigger {
+	transform: scale(1.2);
+	background-color: #f9e441;
+	color: #000;
+	transition: 0.1s;
+	
+	span { color: #fff;}
+}
